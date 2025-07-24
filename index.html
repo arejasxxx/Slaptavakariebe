@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Secret Restaurant</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>The Secret Restaurant</h1>
+    <p>Paslaptingas skonis. Unikali patirtis.</p>
+  </header>
+
+  <section class="about">
+    <h2>Apie mus</h2>
+    <p>Mes esame restoranėlis su paslaptimi... ir išskirtinio skonio patiekalais.</p>
+  </section>
+
+  <section class="menu">
+    <h2>Mūsų meniu</h2>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <h3>Patiekalas 1</h3>
+        <p>Aprašymas...</p>
+      </div>
+      <div class="menu-item">
+        <h3>Patiekalas 2</h3>
+        <p>Aprašymas...</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="reservation">
+    <h2>Rezervacija</h2>
+    <form id="res-form">
+      <input type="text" name="name" placeholder="Vardas" required>
+      <input type="email" name="email" placeholder="El. paštas" required>
+      <input type="date" name="date" required>
+      <input type="time" name="time" required>
+      <button type="submit">Siųsti</button>
+    </form>
+    <p id="res-message"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 The Secret Restaurant</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
